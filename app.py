@@ -64,7 +64,7 @@ def set_webhook():
 
 @app.route('/')
 def index():
-    return render_template('./home.html')
+    return "hello"
 
 
 if __name__ == '__main__':
