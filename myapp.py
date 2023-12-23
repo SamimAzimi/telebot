@@ -1,5 +1,5 @@
 import re
-from flask import Flask, request
+from flask import Flask, request, render_template
 import telegram
 from telebot.credentials import bot_token, bot_user_name, URL
 
@@ -65,6 +65,11 @@ def set_webhook():
 @app.route('/')
 def index():
     return '.'
+
+
+@app.route("/hello")
+def home():
+    return flask.render_template('home.html')
 
 
 if __name__ == '__main__':
