@@ -64,12 +64,7 @@ def set_webhook():
 
 @app.route('/')
 def index():
-    return '.'
-
-
-@app.route("/hello")
-def home():
-    return flask.render_template('home.html')
+    return render_template('./home.html')
 
 
 if __name__ == '__main__':
