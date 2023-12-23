@@ -74,7 +74,7 @@ httpcore==1.0.2
 httpx==0.25.2
 hyperlink==21.0.0
 idna==3.4
-imagecodecs==2021.8.26
+imagecodecs==2023.9.18
 importlib-metadata==4.11.3
 importlib-resources==6.0.0
 incremental==21.3.0
